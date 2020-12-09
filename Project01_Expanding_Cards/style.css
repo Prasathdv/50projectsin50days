@@ -1,0 +1,76 @@
+/* Import Muli font from Google fonts site */
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Muli', sans-serif;
+    display: flex;
+    margin:0;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+
+.container{
+    display: flex;
+    width: 90vw;
+}
+
+.panel{
+    /* Picture properties */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto 100%;
+    /* Position set to relative to make its child h3`s position absolute */
+    position: relative;
+    /* To split equal size between picture elements */
+    flex:0.5;
+    height: 80vh;
+    border-radius: 50px;
+    /* Text properties */
+    color: #fff;
+    cursor: pointer;
+    margin: 10px;
+    /* Add a transition effect on flex property */
+    transition: flex 0.7s ease-in;
+}
+
+.panel h3{
+    position: absolute;
+    font-size: 24px;
+    left:20px;
+    bottom: 20px;
+    margin: 0;
+    /* Set the initial opacity of font as 0 to hide the H3 */
+    opacity: 0;
+}
+
+.panel.active {
+    flex: 5;
+    /* border-radius: 50px; */
+}
+
+.panel.active h3{
+    opacity: 1;
+    transition: opacity 0.3s ease-in 0.4s;
+    /* left: 60px; */
+}
+
+/* Media queries to display settings for smaller devices such as mobile */
+@media(max-width: 480px){
+    .container{
+        width:100vw;
+    }
+
+    .panel:nth-of-type(4),
+    .panel:nth-of-type(5){
+        display: none;
+    }
+}
+
+
