@@ -1,0 +1,115 @@
+/* Import Roboto font from Google fonts site */
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+
+:root{
+    --primary-active: #3498db;
+    --primary-inactive: #e0e0e0 ;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #f6f7fb;
+    font-family: 'Muli', sans-serif;
+    display: flex;
+    margin:0;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden; 
+}
+
+/* Outer container */
+.container{
+    text-align: center;
+}
+
+/* Numbers container */
+.progress-container{
+    display:flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    max-width: 100%;
+    width:350px;
+    position: relative;
+}
+
+/* Styling for Grey line */
+.progress-container::before{
+    content: '';
+    background-color: var(--primary-inactive);
+    position: absolute;
+    top:50%;
+    /* left: 0; */
+    height:4px;
+    width:100%;
+    transform: translateY(-50%);
+    z-index: -1;
+}
+
+/* Styling for blue line */
+.progress{
+    background-color: var(--primary-active);
+    position: absolute;
+    top:50%;
+    left: 0;
+    height:4px;
+    width:0%;
+    transform: translateY(-50%);
+    z-index: -1;
+    transition: 0.4s ease;
+}
+
+/* Styling for creating a cricle around numbers */
+.circle{
+    background-color: #fff;
+    color:#999;
+    border-radius: 50%;
+    height:30px;
+    width:30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 3px solid var(--primary-inactive);
+    transition: 0.4s ease;
+}
+
+/* Style the active circle with primary active color */
+.circle.active{
+    border: 3px solid var(--primary-active);
+}
+
+/* Styling the button */
+
+.btn{
+    background-color: var(--primary-active);
+    color: #fff;
+    border: 0;
+    border-radius: 6px;
+    cursor: pointer;
+    padding: 8px 30px;
+    margin:5px;
+    font-family: inherit;
+    font-size: 14px;
+}
+
+/* button active  */
+.btn:active{
+    transform: scale(0.95);
+}
+
+/* Button focus */
+.btn:focus{
+    outline: none;
+}
+
+/* Button disabled */
+.btn:disabled{
+    background-color: var(--primary-inactive);
+    color: #999;
+    cursor: not-allowed;
+}
+
+
