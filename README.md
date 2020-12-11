@@ -15,3 +15,15 @@ Creating 50 projects in HTML, CSS and JS with no frameworks or nothing. Simple p
 **Today's Progress**: Completed Expanding cards project using HTML, CSS and JS.
 
 **Thoughts:** Learned CSS Flex properties, background effects , Transition effects, JS DOM manipulation.
+
+### Day 2: December 10. Thursday
+
+**Today's Progress**: Completed Progress steps project using HTML, CSS and JS.
+
+**Thoughts:** Learned CSS Flex properties, background effects , Transition effects, JS DOM manipulation.
+
+### Day 3: December 11. Friday
+
+**Today's Progress**: Completed Rotating Navigation Menu project using HTML, CSS and JS.
+
+**Thoughts:** Learned CSS transitions transforms properties.
