@@ -27,3 +27,9 @@ Creating 50 projects in HTML, CSS and JS with no frameworks or nothing. Simple p
 **Today's Progress**: Completed Rotating Navigation Menu project using HTML, CSS and JS.
 
 **Thoughts:** Learned CSS transitions transforms properties.
+
+### Day 4: December 12. Saturday
+
+**Today's Progress**: Completed Hidden Search project using HTML, CSS and JS.
+
+**Thoughts:** Learned CSS transitions transforms and translate properties. In JS learned toggle method.
