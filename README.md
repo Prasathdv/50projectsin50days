@@ -33,3 +33,9 @@ Creating 50 projects in HTML, CSS and JS with no frameworks or nothing. Simple p
 **Today's Progress**: Completed Hidden Search project using HTML, CSS and JS.
 
 **Thoughts:** Learned CSS transitions transforms and translate properties. In JS learned toggle method.
+
+### Day 5: December 13. Sunday
+
+**Today's Progress**: Completed Blurry Loading project using HTML, CSS and JS.
+
+**Thoughts:** Learned CSS filter method to blur an image and added a 3rd party function scale() to maap one range of numbers with other range. This is mainly used to blur image while number counter increases and viceversa.
