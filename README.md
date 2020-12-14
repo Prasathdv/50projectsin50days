@@ -39,3 +39,9 @@ Creating 50 projects in HTML, CSS and JS with no frameworks or nothing. Simple p
 **Today's Progress**: Completed Blurry Loading project using HTML, CSS and JS.
 
 **Thoughts:** Learned CSS filter method to blur an image and added a 3rd party function scale() to maap one range of numbers with other range. This is mainly used to blur image while number counter increases and viceversa.
+
+### Day 6: December 14. Monday
+
+**Today's Progress**: Completed Scroll Animation project using HTML, CSS and JS.
+
+**Thoughts:** Learned window scroll event and innerHeight function. Also learnt getBoundingClientRect() function and used its top property to calculate box top height. Used CSS nth-of-child(even) to display even and odd boxes from different directions.
