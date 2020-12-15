@@ -45,3 +45,9 @@ Creating 50 projects in HTML, CSS and JS with no frameworks or nothing. Simple p
 **Today's Progress**: Completed Scroll Animation project using HTML, CSS and JS.
 
 **Thoughts:** Learned window scroll event and innerHeight function. Also learnt getBoundingClientRect() function and used its top property to calculate box top height. Used CSS nth-of-child(even) to display even and odd boxes from different directions.
+
+### Day 7: December 15. Tuesday
+
+**Today's Progress**: Completed Split screen hover effect project using HTML, CSS and JS.
+
+**Thoughts:** Learned mouse hover DOM events such as mouseenter and mouseleave. Added hover transitions.
